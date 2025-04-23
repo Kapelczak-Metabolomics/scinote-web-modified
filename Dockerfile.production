@@ -36,7 +36,7 @@ RUN \
 RUN \
   --mount=type=cache,target=/usr/local/share/.cache/yarn/v6,sharing=locked \
   --mount=type=cache,target=/usr/src/app/node_modules,sharing=locked \
-  DATABASE_URL=postgresql://postgres@db/scinote_production \
+  DATABASE_URL=postgresql://kapelczak:Eddieeddie383@scinote-db-lxtrld:5432/kapelczak \
   SECRET_KEY_BASE=dummy \
   DEFACE_ENABLED=true \
   bash -c "rake assets:precompile && rake deface:precompile && rm -rf ./tmp/cache"
