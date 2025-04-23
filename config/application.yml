@@ -1,0 +1,32 @@
+# Secrets
+SECRET_KEY_BASE: "a2d3f918c83f7e238d1a743b56cbe1e8f91e7ea2a3948c74661a9d65bb7dce73"
+PAPERCLIP_HASH_SECRET: "f7b93d8d1c8471eeb9a5a2e1d3c3f1aef4b2e569a3c7dfc2946b8300f54d2d42"
+
+# File storage
+
+# For local file storage
+PAPERCLIP_STORAGE: "filesystem"
+
+# For S3 file storage
+#PAPERCLIP_STORAGE: "s3"
+#AWS_ACCESS_KEY_ID: "AKIADUMMYKEY123456"
+#AWS_REGION: "us-west-2"
+#AWS_SECRET_ACCESS_KEY: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYDUMMYKEY"
+#S3_BUCKET: "scinote-sandbox-bucket"
+#S3_HOST_NAME: "s3.us-west-2.amazonaws.com"
+
+# Mailer settings
+MAIL_FROM: "Example SciNote Assistant <assistant@demoemail.com>"
+MAIL_REPLYTO: "Example SciNote Assistant <reply@demoemail.com>"
+SMTP_ADDRESS: "smtp.demoemail.com"
+SMTP_PORT: "587"
+SMTP_DOMAIN: "demoemail.com"
+SMTP_USERNAME: "smtpuser@demoemail.com"
+SMTP_PASSWORD: "demoSMTPpass123!"
+SMTP_AUTH_METHOD: "plain"
+MAIL_SERVER_URL: "scinote.localdomain.com"
+
+# Sign-up process
+NEW_TEAM_ON_SIGNUP: "true"
+ENABLE_EMAIL_CONFIRMATIONS: "false"
+ENABLE_USER_REGISTRATION: "true"
