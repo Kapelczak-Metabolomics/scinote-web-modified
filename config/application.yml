@@ -30,3 +30,4 @@ MAIL_SERVER_URL: "scinote.localdomain.com"
 NEW_TEAM_ON_SIGNUP: "true"
 ENABLE_EMAIL_CONFIRMATIONS: "false"
 ENABLE_USER_REGISTRATION: "true"
+DATABASE_URL: postgresql://kapelczak:Eddieeddie383@scinote-db-lxtrld:5432/kapelczak
